@@ -1,0 +1,15 @@
+{
+	"extends": "./jsconfig.paths.json",
+    "compilerOptions": {
+        "paths": {
+			"@assets/*": ["src/js/assets/*"],
+			"@components/*": ["src/js/components/*"],
+			"@engines/*": ["src/js/engines/*"],
+			"@utils/*": ["src/js/utils/*"]
+		}
+    },
+    "include": [
+        "src",
+        "craco.config.js"
+	]
+}

@@ -1,0 +1,12 @@
+{
+  // edit here to make your own absolute path!
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/js/assets/*"],
+      "@components/*": ["src/js/components/*"],
+      "@engines/*": ["src/js/engines/*"],
+      "@utils/*": ["src/js/utils/*"]
+    }
+  }
+}
